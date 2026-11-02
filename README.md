@@ -24,7 +24,7 @@ This server-side plugin enables the **Trade Cycling** functionality from the cli
 |-----------|---------|
 | **Server** | Paper 26.3+ (or forks: Purpur, Folia, Paper forks) |
 | **Client Mod** | [Trade Cycling](https://modrinth.com/mod/trade-cycling) 26.3+ (Fabric, Forge, NeoForge, Quilt) |
-| **Java** | 21+ (required by Paper 26.3) |
+| **Java** | 25 (required by Paper 26.3) |
 
 > **Note:** Players without the mod can still join the server normally — they simply won't see the cycle trades button or be able to use the keybind.
 
@@ -109,7 +109,7 @@ Since Minecraft 26.1+, Mojang provides **unobfuscated server JARs**, so these de
 ## 🛠 Building from Source
 
 ### Prerequisites
-- JDK 21+
+- JDK 25
 - Git
 
 ### Build Commands
@@ -140,8 +140,8 @@ This plugin follows the format: `1.0+<paper-version>`
 
 | Plugin Version | Paper Version | Minecraft Version | Trade Cycling Mod |
 |----------------|---------------|-------------------|-------------------|
-| 1.0+26.3 | 26.3.build.+ | 26.3 (1.21.4) | 26.3+ |
-| 1.0+26.2 | 26.2.build.+ | 26.2 (1.21.3) | 26.2 |
+| 1.0+26.3 | 26.3.build.+ | 26.3 | 26.3+ |
+| 1.0+26.2 | 26.2.build.+ | 26.2 | 26.2 |
 
 ---
 
